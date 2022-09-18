@@ -4,7 +4,7 @@ node_modules
 # vite
 build
 
-# vitest
+# jest
 coverage
 
 # eslint

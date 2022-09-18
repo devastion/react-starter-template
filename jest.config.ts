@@ -5,7 +5,7 @@ export default {
   transform: {
     "^.+\\.tsx?$": "ts-jest",
   },
-  setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
+  setupFilesAfterEnv: ["<rootDir>/src/setupTests.ts"],
   coverageDirectory: "<rootDir>/coverage/",
   collectCoverageFrom: [
     "<rootDir>/src/**/*.{ts,tsx}",
