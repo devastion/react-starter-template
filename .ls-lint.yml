@@ -1,4 +1,4 @@
 ls:
-  src:
+  src/:
     .tsx: lowercase
     .d.ts: kebab-case

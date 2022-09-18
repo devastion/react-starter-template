@@ -34,7 +34,8 @@
     "*.ts?(x)": [
       "eslint",
       "prettier --write"
-    ]
+    ],
+    "*": "ls-lint"
   },
   "commitlint": {
     "extends": [
@@ -73,6 +74,7 @@
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
     "@commitlint/cz-commitlint": "^17.1.2",
+    "@ls-lint/ls-lint": "^1.11.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",

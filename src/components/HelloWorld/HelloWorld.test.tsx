@@ -11,7 +11,6 @@ describe("HelloWorld", () => {
     const title = screen.getByTestId("title");
 
     // assert
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-call
     expect(title).toBeInTheDocument();
   });
 });
