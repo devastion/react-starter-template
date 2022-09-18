@@ -1,0 +1,16 @@
+# node
+node_modules
+
+# vite
+build
+
+# vitest
+coverage
+
+# eslint
+.eslintcache
+
+# cypress
+cypress/screenshots
+cypress/videos
+cypress/downloads

@@ -1,0 +1,13 @@
+# node
+node_modules
+*-lock.json
+
+# vite
+build
+public
+
+# vitest
+coverage
+
+# eslint
+.eslintcache

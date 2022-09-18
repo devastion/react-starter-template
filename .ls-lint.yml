@@ -1,0 +1,4 @@
+ls:
+  src:
+    .tsx: lowercase
+    .d.ts: kebab-case
